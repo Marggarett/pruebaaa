@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos</title>
+    <link rel="shortcut icon" href="/assets/logo iub.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-img">
+            <a href="https://www.unibarranquilla.edu.co/"> <img src="/assets/logo-itsa.png" alt="Logo de la IUB" target="_blank"></a>
+        </div>
+        <nav class="header-1">
+            <a href="../index.html" class="sub">INICIO</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto">
+
+            <h1>¡Contáctenos!</h1>
+            <p>¡Estamos encantados de saber de ti! Contáctanos utilizando el formulario o la información de contacto a
+                continuación.</p>
+
+            <form id="formularioContacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+
+            <div id="informacion-contacto">
+                <h3>Información de Contacto</h3>
+                <p><strong>Dirección:</strong> 4b g1 - 53, Cra. 5 Sur, Nte. Centro Historico, Barranquilla, Atlántico
+                </p>
+                <p><strong>Teléfono:</strong> (123) 456-7890</p>
+                <p><strong>Correo Electrónico:</strong> info@gmail.com</p>
+            </div>
+
+        </section>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7833.2173214061895!2d-74.79749610851448!3d10.992882506677272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5cff2b82b8815%3A0x4e7910ae3b78e831!2sUnibarranquilla!5e0!3m2!1sen!2sco!4v1708039066669!5m2!1sen!2sco"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </main>
+    <script src="/js/guardar_datos_contacto.js"></script>
+</body>
+</html>

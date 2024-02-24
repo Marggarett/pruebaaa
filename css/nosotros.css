@@ -1,0 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Color de fondo para el cuerpo de la página */
+    color: #333; /* Color de texto principal */
+}
+header {
+    background-color: #fff; /* Fondo del encabezado */
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-1{
+    color: #0c0c0c;
+    font-weight: bold;
+}
+
+.sub{
+    text-decoration: none;
+}
+.header-img img {
+    height: 50px;
+}
+.quienes-somos {
+    background-color: #e0ec70; 
+}
+
+.nuestra-funcion {
+    background-color: #96d9f1; 
+}
+
+.objetivos {
+    background-color: #68868d; /
+}
+
+h2{
+    text-align: center;
+}

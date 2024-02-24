@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/logo iub.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/estilo_index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <div class="header-img">
+            <a href="https://www.unibarranquilla.edu.co/"> <img src="/assets/logo-itsa.png" alt="Logo de la IUB" target="_blank"></a>
+        </div>
+        <nav class="header-1">
+            <a href="index.html">INICIO</a>
+            <a href="/html/nosotros.html">NOSOTROS</a>
+            <a href="/html/lineas.html">LINEAS DE AYUDA</a>
+        </nav>
+        <nav class="header-2">
+            <a href="#">REGISTRARSE</a>
+        </nav>
+    </header>
+    <main>
+        <div class="main-1">
+            <h2>A TU ALCANCE</h2>
+            <h1>ORIENTACIÓN PSICOLÓGICA</h1>
+            <p>Nuestra misión en la Institución Universitaria de Barranquilla es impulsar, preservar,fortalecer el
+                acceso y la calidad de la salud mental en nuestra comunidad académica. Nos comprometemos a proporcionar
+                herramientas de apoyo psicológico y recursos que fortalezcan el bienestar emocional y el crecimiento
+                personal.</p>
+            <h3><a href="#" class="subrayado">RESERVA TU CITA</a></h3>
+        </div>
+        <div class="form">
+            <form action="">
+                <p class="txt_form">BIENVENIDO(A)</p>
+                <label for="usuario">Usuario</label>
+                <input type="text" id="usuario" name="usuario" placeholder="Ingrese su usuario" required>
+
+                <label for="contrasena">Contraseña</label>
+                <div class="contrasena-container">
+                    <span class="icon-eye">
+                        <i class="fa-solid fa-eye-slash"></i>
+                    </span>
+                    <input type="password" id="contrasena" name="contrasena" placeholder="Ingrese su contraseña"
+                        required>
+                </div>
+
+                <label class="recuerdame_label" for="recuerdame">
+                    <input type="checkbox" id="recuerdame" name="recuerdame"> Recuérdame
+                </label>
+
+                <div class="centrar">
+                    <button type="button" onclick="ingresar()">Ingresar</button>
+                    <button type="button" onclick="limpiar()">Borrar</button>
+                </div>
+            </form>
+        </div>
+        </form>
+        </div>
+    </main>
+    <footer>
+        <a href="/html/contacto.html" class="footer_design">CONTÁCTENOS</a>
+        <a href="#" class="footer_design">EVENTOS</a>
+        <a href="#" class="footer_design">UBICACIÓN</a>
+        <a href="#" class="footer_design">PQRS</a>
+    </footer>
+    <script src="/js/funciones.js"></script>
+</body>
+</html>
